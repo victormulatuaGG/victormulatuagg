@@ -384,7 +384,15 @@
       <p> &copy; Copyright 2021 Victor Mulatua GG. All right Reserved</p>
     </div>    
   </section>
-<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="24824bfd-4c46-4048-bf54-abd2d91d2982";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+<script>
+  function initFreshChat() {
+    window.fcWidget.init({
+      token: "1ef03a18-435a-497a-ba59-b7bdeb86a7c0",
+      host: "https://wchat.freshchat.com"
+    });
+  }
+  function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"Freshdesk Messaging-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
+</script>
 
 <script>var continuallySettings = { appID: "wg9yq7p37y4j" };</script><script src="https://cdn-app.continual.ly/js/embed/continually-embed.latest.min.js"></script>
 </body>
